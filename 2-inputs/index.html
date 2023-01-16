@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form with Method GET</h1>
+    <form action="index.html" method="POST">
+        <input type="text" name="textContent" required="required" />
+        <hr/>
+        <input type="date" name="textDate" />
+        <hr/>
+
+        <input type="number" name="textNumber" min="18" max="150" />
+        <hr/>
+        <input type="tel" id="phone"  name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+        <hr/>
+
+        <input type="radio" name="radioOption" value="radioOption1"  /> Option 1
+        <input type="radio" name="radioOption" value="radioOption2" /> Option 2
+        <input type="radio" name="radioOption" value="radioOption3" /> Option 3
+        <input type="radio" name="radioOption" value="radioOption4" /> Option 4
+        <hr/>
+
+
+        <input type="checkbox" id="checkBoxName" name="checkBoxName" value="True">
+        <label for="checkBoxName"> Expand the Click for the CheckBox</label><br>
+        <hr/>
+
+        <textarea  name="textAreaContent" cols="45" rows="5"  ></textarea>
+        <hr/>
+        <select name="selectContent">
+            <option value="Select 1">Select 1</option>
+            <option value="Select 2">Select 2</option>
+            <option value="Select 3">Select 3</option> 
+        </select>
+        <br>
+
+        
+        
+        
+        <input type="submit" value="Save">
+    </form>
+
+</body>
+</html>
