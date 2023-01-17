@@ -7,8 +7,8 @@
     <title>Forms</title>
 </head>
 <body>
-    <h1>Form with Method GET</h1>
-    <form action="index.html" method="POST">
+    <h1>Form with Method POST</h1>
+    <form action="index.html" method="POST" novalidate>
         <input type="text" name="textContent" required="required" />
         <hr/>
         <input type="date" name="textDate" />
@@ -16,7 +16,7 @@
 
         <input type="number" name="textNumber" min="18" max="150" />
         <hr/>
-        <input type="tel" id="phone"  name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+        <input type="tel" id="phone"  name="phone" placeholder="999-999-999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
         <hr/>
 
         <input type="radio" name="radioOption" value="radioOption1"  /> Option 1
@@ -25,9 +25,9 @@
         <input type="radio" name="radioOption" value="radioOption4" /> Option 4
         <hr/>
 
-
-        <input type="checkbox" id="checkBoxName" name="checkBoxName" value="True">
-        <label for="checkBoxName"> Expand the Click for the CheckBox</label><br>
+        <input type="checkbox" id="checkBoxName2" name="checkBoxName2" value="True">
+        <input type="checkbox" id="checkBox1" name="checkBoxName" value="True">
+        <label for="checkBoxName2"> Expand the Click for the CheckBox</label><br>
         <hr/>
 
         <textarea  name="textAreaContent" cols="45" rows="5"  ></textarea>
@@ -41,7 +41,7 @@
 
         
         
-        
+       
         <input type="submit" value="Save">
     </form>
 
