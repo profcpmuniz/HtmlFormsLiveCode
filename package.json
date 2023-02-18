@@ -1,0 +1,25 @@
+{
+  "name": "htmlformslivecode",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profcpmuniz/HtmlFormsLiveCode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/profcpmuniz/HtmlFormsLiveCode/issues"
+  },
+  "homepage": "https://github.com/profcpmuniz/HtmlFormsLiveCode#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
